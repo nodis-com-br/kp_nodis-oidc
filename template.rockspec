@@ -2,7 +2,7 @@ package = "${NODIS_PROJECT_NAME}"
 version = "${NODIS_PROJECT_VERSION}-0"
 source = {
     url = "git+https://github.com/${GITHUB_REPOSITORY}",
-    dir = "${NODIS_PROJECT_NAME}"
+    dir = "kp_${NODIS_PROJECT_NAME}"
 }
 description = {
     summary = "A Kong plugin for implementing the OpenID Connect Relying Party (RP) functionality",
