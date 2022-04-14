@@ -1,8 +1,8 @@
 package = "${NODIS_PROJECT_NAME}"
-version = "${NODIS_PROJECT_VERSION}"
+version = "${NODIS_PROJECT_VERSION}-0"
 source = {
-    url = "git+https://github.com/nodis-com-br/nodis-oidc",
-    dir = "nodis-oidc"
+    url = "git+https://github.com/${GITHUB_REPOSITORY}",
+    dir = "${NODIS_PROJECT_NAME}"
 }
 description = {
     summary = "A Kong plugin for implementing the OpenID Connect Relying Party (RP) functionality",
@@ -17,7 +17,7 @@ description = {
 
         It can be used as a reverse proxy terminating OAuth/OpenID Connect in front of an origin server so that the origin server/services can be protected with the relevant standards without implementing those on the server itself.
     ]],
-    homepage = "https://github.com/nodis-com-br/nodis-oidc",
+    homepage = "https://github.com/${GITHUB_REPOSITORY}",
     license = "Apache 2.0"
 }
 dependencies = {
